@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>小样！</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+	</style>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="wrap">
+		<!-- 封面 -->
+		<div class="index">
+			<div class="enter"><img src="images/enter-on.png" alt=""></div>
+		</div>
+		<!-- 选择人物 -->
+		<div class="choosePeople">
+			<div class="big">
+				<div><img class="firstImg" src="images/choose-1.png" alt=""></div>
+				<div><img src="images/choose-2.png" alt=""></div>
+				<div><img src="images/choose-3.png" alt=""></div>
+				<div><img src="images/choose-4.png" alt=""></div>
+				<div><img src="images/choose-5.png" alt=""></div>
+			</div>
+			<div class="small">
+				<div><img src="images/baike-on.png" alt=""><p>白客</p></div>
+				<div><img src="images/hanxue-off.png" alt=""><p>韩雪</p></div>
+				<div><img src="images/mingdao-off.png" alt=""><p>明道</p></div>
+				<div><img src="images/liuyuxi-off.png" alt=""><p>刘语熙</p></div>
+				<div><img src="images/xukaipin-off.png" alt=""><p>徐开驰</p></div>
+				
+			</div>
+			<div id="choosed"><img src="images/choose-on.png" alt=""></div>
+		</div>
+		<!-- 开始游戏 -->
+		<div class="beginGame">
+			<div class="time">
+				<span>0</span>
+				<div><img src="images/score.png" alt=""></div>
+				<p>
+					<img src="images/t2.png">
+					<img src="images/t0.png">
+<!-- 					<img src="images/time.png">
+					<img src="images/t0.png">
+					<img src="images/t0
+					.png"> -->
+				</p>
+			</div>
+			<div class="people">
+				<img class="person" src="images/baike-go.png">
+			</div>
+			<p class="xipan">
+				<img src="images/gunzi.png" alt="">
+				<img src="images/xipan.png" alt="">
+
+			</p>
+			<div class="action"></div>
+			<!-- 食物 -->
+			<div class="food">
+				<p class="oneY"><img src="images/goods1.png"></p>
+				<p class="twoY"><img src="images/cake2.png"></p>
+				<p class="threeY"><img src="images/sugar3.png"></p>
+				<p class="fourY"><img src="images/goods4.png"></p>
+				<p class="fiveY"><img src="images/sugar2.png"></p>
+				<p class="sixY"><img src="images/baoxiang.png"></p>
+				<p class="sevenY"><img src="images/rusuan3.png"></p>
+			</div>
+		</div>
+
+		<!-- 游戏结束 -->
+		<div class="gameOver">
+			<img class="lookScore" src="images/rank.png" alt="">
+			<a href=""><img class="playAgain" src="images/playagain.png" alt=""></a>
+			
+		</div>
+		<!-- 成绩榜 -->
+		<div class="scoreBang">
+			<p class="backGame"></p>
+			<p class="getPrize"></p>
+		</div>
+		<!-- 奖品 -->
+		<div class="prizePage">
+			<img class="backGameP" src="images/backgame.png" alt="">
+		</div>
+		<!-- 预加载 -->
+		<div class="prevOnLoad">
+			<p>0%</p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
